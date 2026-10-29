@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --forest: #163a24;
+  --leaf: #2e7d45;
+  --leaf-dark: #22633a;
+  --sprout: #a9d66b;
+  --marigold: #f4b72f;
+  --paper: #f2f6ec;
+  --ink: #1b2a1f;
+  --muted: #667467;
+  --line: #d5dfcb;
+  --danger: #c0392b;
+}
+
+@theme inline {
+  --color-forest: var(--forest);
+  --color-leaf: var(--leaf);
+  --color-leaf-dark: var(--leaf-dark);
+  --color-sprout: var(--sprout);
+  --color-marigold: var(--marigold);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-danger: var(--danger);
+  --color-mist: #e3ecd6;
+  --font-sans: var(--font-nunito), system-ui, sans-serif;
+  --font-display: var(--font-bricolage), var(--font-nunito), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+  line-height: 1.12;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--marigold);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,10 @@
+[
+  { "id": 17, "name": "Apel", "price": 100, "stock": 5, "image": "/image/apple.jpg", "code": "APL001" },
+  { "id": 18, "name": "Pisang", "price": 100, "stock": 8, "image": "/image/banana.jpg", "code": "BNN001" },
+  { "id": 19, "name": "Kubis", "price": 100, "stock": 3, "image": "/image/cabbage.jpeg", "code": "CBG001" },
+  { "id": 20, "name": "Telur", "price": 100, "stock": 10, "image": "/image/egg.jpeg", "code": "EGG001" },
+  { "id": 21, "name": "Pepaya", "price": 100, "stock": 6, "image": "/image/papaya.jpg", "code": "PPY001" },
+  { "id": 22, "name": "Labu", "price": 100, "stock": 4, "image": "/image/pumpkin.jpg", "code": "PMK001" },
+  { "id": 23, "name": "Tomat", "price": 100, "stock": 7, "image": "/image/tomato.jpeg", "code": "TMT001" },
+  { "id": 24, "name": "Kentang", "price": 100, "stock": 9, "image": "/image/potato.jpeg", "code": "PTT001" }
+]
